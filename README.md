@@ -1,11 +1,9 @@
-## Contents of SGAD
+## Contents for SGAD
 
 - [Overview](#overview)
 - [Repo Contents](#repo-contents)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
-  - [Dependencies](#dependencies)
-  - [Download](#download)
 - [Citation](#citation)
 
 # Overview
@@ -14,13 +12,15 @@ Protein-protein interactions (PPIs) represent a delicate but universal mechanism
 
 # Repo Contents
 
-- [data](data): Store PPI data sets and fasta files of proteins. The [fasta.tar.gz](data/fasta.tar.gz) needs to be uncompressed.
-- [evaluation_indicators](evaluation_indicators): Used to store evaluation index functions.
-- [src](src): Model, data loading and feature extraction codes.
+- [1-3Datasets](./1-3Datasets): PPI data sets (1:3 ratio).
+- [1-5Datasets](./1-5Datasets): PPI data sets (1:5 ratio).
+- [Datasets](./Datasets): PPI data sets and fasta files of proteins.
+- [evaluation_indicators](./evaluation_indicators): evaluation index functions.
+- [fig](./fig): plotting ROC curves.
+- [src](./src): model, data loading and feature extraction.
 
 
 # System Requirements
-
 
 The `SGAD` package requires only a standard computer with enough RAM to support the operations defined by a user.  All the experiments were run on CentOS 8, CUDA 10.1.243, CuDnn 7.0, Python 3.7, Keras 2.0, and PyTorch 1.3.0.
 
@@ -28,11 +28,11 @@ The `SGAD` package requires only a standard computer with enough RAM to support 
 ## Dependencies
 The following dependencies are required to run SGAD properly:
 
-- sklearn=0.23.0
-- numpy=1.16.2
-- torch=1.3.1
-- keras=2.0.8
-- networkx=2.4
+- scikit-learn==0.23.0
+- numpy==1.16.2
+- torch==1.3.1
+- keras==2.0.8
+- networkx==2.4.0
 
 ## Download
 
@@ -43,7 +43,7 @@ git clone https://github.com/ComputeSuda/SGAD.git
 # Citation
 
 For usage of the package and associated manuscript, please cite according to the enclosed.
-```
+```md
 Fei Zhu, et al, Protein Interaction Network Reconstruction with a Structural Gated Attention Deep
 Model by Incorporating Network Structure Information, Journal Name, Date, Volume, Page.
 (to be updated)
