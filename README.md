@@ -4,6 +4,8 @@
 - [Repo Contents](#repo-contents)
 - [System Requirements](#system-requirements)
 - [Installation Guide](#installation-guide)
+  - [Dependencies](#dependencies)
+  - [Download](#download)
 - [Citation](#citation)
 
 # Overview
@@ -42,11 +44,11 @@ git clone https://github.com/ComputeSuda/SGAD.git
 
 # Citation
 
-For usage of the package and associated manuscript, please cite according to the enclosed.
+For usage of the package, please cite
+[the following paper](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.1c00982).
 ```md
 Fei Zhu, et al, Protein Interaction Network Reconstruction with a Structural Gated Attention Deep
-Model by Incorporating Network Structure Information, Journal Name, Date, Volume, Page.
-(to be updated)
+Model by Incorporating Network Structure Information, J. Chem. Inf. Model., 2022, 62, 2, 258–273.
 ```
 
 This repository is distributed under [GNU General Public License v3.0](LICENSE).
